@@ -27,6 +27,8 @@ public class HelloController {
         System.out.println("data = " + data);
         return "ok";
     }
+    // MyNumberFormatter text = 10,000 locale = ko
+    // data = 10000
 
     @GetMapping("/ip-port")
     public String ipPort(@RequestParam IpPort ipPort) {
